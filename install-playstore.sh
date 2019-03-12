@@ -92,8 +92,8 @@ OPENGAPPS_RELEASEDATE="$($CURL -s https://api.github.com/repos/opengapps/x86_64/
 OPENGAPPS_FILE="open_gapps-x86_64-7.1-mini-$OPENGAPPS_RELEASEDATE.zip"
 OPENGAPPS_URL="https://github.com/opengapps/x86_64/releases/download/$OPENGAPPS_RELEASEDATE/$OPENGAPPS_FILE"
 
-HOUDINI_URL="http://dl.android-x86.org/houdini/7_y/houdini.sfs"
-HOUDINI_SO="https://github.com/Rprop/libhoudini/raw/master/4.0.8.45720/system/lib/libhoudini.so"
+HOUDINI_URL="https://github.com/adryanev/houdini-anbox/blob/master/houdini.sfs"
+HOUDINI_SO="https://github.com/adryanev/houdini-anbox/blob/master/libhoudini.so"
 
 COMBINEDDIR="/var/snap/anbox/common/combined-rootfs"
 OVERLAYDIR="/var/snap/anbox/common/rootfs-overlay"
